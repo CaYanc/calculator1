@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(img/fondo.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+/* calculadora  */
+
+#calculator1{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 60px auto;
+    background-image: radial-gradient(rgba(114, 111, 111, 0.685) , rgba(54, 54, 56, 0.575)) ;
+    width: 400px;
+    padding: 25px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 20px 0 rgb(207, 205, 205), 0 0 20px 0 rgb(8, 8, 8);
+}
+
+button{
+    border-radius: 50% !important;
+    width: 70px;
+    height: 70px;
+    border: none;
+    box-shadow: -2px -2px 18px -3px  white, 2px 2px 8px 0px black ;
+    transition: all .3s;
+    font-weight: 700;
+}
+
+button:hover{
+    font-weight: 900;
+   background-color: rgb(194, 187, 187);
+   transform: scale(1.1);
+
+}
+
+input{
+    font-size: 30px;
+    text-align: end;
+    padding: 20px;
+    width: 90%;
+    border-radius: 40px;
+    border: none;
+    box-shadow: inset 5px 5px 20px 0 rgb(88, 88, 86),0px 0px 5px 0px black ;
+    
+}
+
+
+#clear:hover{
+    background-color: rgb(189, 7, 7);
+}
+
+.equal{
+    width: 150px;
+    border-radius: 30px !important;
+}
+
+#historial{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+section{
+    display: flex;
+    width: 600px;
+    height: 430px;
+
+}
+
+section img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+
+section img:hover{
+    cursor: crosshair;
+    box-shadow: 0 0 10px 1px #000;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+} */
